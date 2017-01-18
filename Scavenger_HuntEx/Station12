@@ -2,26 +2,34 @@ Answering these questions earns a flag and witing the program described below ea
 
 Define the following words:
 	Input
+		Data feed into program
 	Ouput
+		Data fee from program
 	stdin
+		Standard input, from keyboard
 	stdout
+		Standard output, to screen
 	stderr
+		Standard error, output caused by errors, to screen
 	buffer
+		Temporary storage area, all stdin stdout flows through
 
-What does the scanf() do? 
+What does the scanf() do?
+	reads formatted input from stdin. Can use to assign input to a variable
 
 List other functions similar to scanf().
+	gets(), fgets()
 
 Write a program that does the following:
 	Allocate a buffer by calling to malloc
-	Create a new file
-	Write something into the file
-	Close the opened file
-	Open a file for read
+	+ Create a new file
+	+ Write something into the file
+	+ Close the opened file
+	+ Open a file for read
 	Free the allocated buffer
 	Allocate a buffer by calling to malloc
 	Read the file content into the new buffer
-	Close the file
+	+ Close the file
 	Print the buffer content
 	Free the buffer
 Use the following questions to help you write the program:
@@ -31,5 +39,35 @@ Use the following questions to help you write the program:
 	What is the function to read a file?
 	What is the purpose of the function malloc()?
 	What is the purpose of the function free()?
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+	// allocate buffer using malloc
+
+	// open file test.txt
+	FILE *fp = fopen("output/test.txt", "a+");
+	//write to file
+	fprintf(fp, "This is text...\n");
+	// close file when done
+	int fclose( FILE *fp );
+
+	// open file test.txt for read
+	// FILE *fp = fopen("output/test.txt", "r");
+	// free the allocated buffer
+
+	// allocate a buffer using malloc
+
+	// read the file content into the new buffer
+
+	// close file when done
+	// int fclose( FILE *fp );
+	// print the buffer content
+
+	// free the buffer
+
+}
 
 To submit your answer, show the working program to the instructor. The instructor will provide you with the SHA1 hash. Submit the hash to the CTF server for points.
