@@ -21,5 +21,5 @@ What is a header file (.h)?
 Explain how to pass values from command line to your C program.
 
 Complete the following statement by filling in the blanks:
-	"(blank) (blank) is a way to convert a variable from one data type to another data type."
+	"(blank) (blank) is a way to convert a variable from one data type to another data type." type,casting (de7303b3bd9b44dc611d11da3514a88b3f6b37fa)
 To submit your answer, SHA1 hash the final answer. (Ex: if the two blanks above are dog and fly in that order, you would SHA1 hash "dog,fly" (without quotes and all lower case)) Submit the hash to the CTF server for points.

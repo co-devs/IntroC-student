@@ -49,4 +49,4 @@ int main()
 	printf("%d\n", chr);
 	return 0;
 }
-// The above code returns 0 but prints 128
+// The above code returns 0 but prints -128 (2493581e92030f01a960b296b12ae9287b55c112)

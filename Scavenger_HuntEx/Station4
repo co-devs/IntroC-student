@@ -59,5 +59,6 @@ o) int main(void);
 	answers are a, b, e, f, g, h, l, m wrong
 				a, b, f, g, h, l, m wrong
 				a, b, f, g, l, m wrong
+				a,b,f,g,h,j,k,m,n,o (ec83a21fe4e4827098836c2e1a31065abc885873)
 
 To submit your answer, SHA1 hash the final answer. (Ex: if a, c, and f were the only correct answers, you would SHA1 hash "acf" (without quotes)) Submit the hash to the CTF server for points.

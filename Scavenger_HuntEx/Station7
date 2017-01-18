@@ -36,13 +36,13 @@ Define each of the following format specifiers:
 	%%
 
 The following program should output C:\Windows\system32\temp\'evil.txt'
-How can you fix the prinf statement to have the proper output?
+How can you fix the printf statement to have the proper output?
 
 #include <stdio.h>
 int main()
 {
-    printf("C:\Windows\system32\temp\evil.txt");
+    printf("C:\\Windows\\system32\\temp\\evil.txt"); // (4c781f2d2792379dd8766beadc437a598f680d13)
     return 0;
-} 	
+}
 
 To submit your answer, SHA1 hash the final answer. The final answer should include everything between the double quotes within the printf statement. (Ex. if printf("LOL''WHAT"); is the correct format, your answer should be "LOL''WHAT" (without the double quotes)) Submit the hash to the CTF server for points.
