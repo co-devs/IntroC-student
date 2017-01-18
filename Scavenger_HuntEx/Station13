@@ -1,0 +1,25 @@
+Answering the following questions earns 3 flags.  A 4th flag is available for filling in the blanks at the bottom.
+
+Explain C preprocessors (CPP).
+What symbol do all CPP commands being with?
+Describe the functions of the following CPPs:
+	define
+	include
+	undef
+	ifdef
+	ifndef
+	if
+	else
+	elif
+	endif
+	error
+	pragma
+What are predefined macros?
+Define stringize and token-passing.
+What are parameterized macros?
+What is a header file (.h)?
+Explain how to pass values from command line to your C program.
+
+Complete the following statement by filling in the blanks:
+	"(blank) (blank) is a way to convert a variable from one data type to another data type."
+To submit your answer, SHA1 hash the final answer. (Ex: if the two blanks above are dog and fly in that order, you would SHA1 hash "dog,fly" (without quotes and all lower case)) Submit the hash to the CTF server for points.

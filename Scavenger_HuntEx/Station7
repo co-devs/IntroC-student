@@ -1,0 +1,48 @@
+Filling in the blanks below will earn a flag (3pts) and another flag is available at the bottom.
+
+Explain escape sequences in regards to C.
+Given these escape sequnces, what would they print or what are they used for:
+	\\
+	\"
+	\'
+	\?
+	\a
+	\b
+	\n
+	\t
+	\v
+	\r
+	\ddd
+	\xddd
+	\0
+
+What are format specifiers?
+
+Define each of the following format specifiers:
+	%c
+	%d
+	%e or %E
+	%f
+	%hi
+	%hu
+	%i
+	%lu
+	%li
+	%o
+	%s
+	%u
+	%x
+	%n
+	%%
+
+The following program should output C:\Windows\system32\temp\'evil.txt'
+How can you fix the prinf statement to have the proper output?
+
+#include <stdio.h>
+int main()
+{
+    printf("C:\Windows\system32\temp\evil.txt");
+    return 0;
+} 	
+
+To submit your answer, SHA1 hash the final answer. The final answer should include everything between the double quotes within the printf statement. (Ex. if printf("LOL''WHAT"); is the correct format, your answer should be "LOL''WHAT" (without the double quotes)) Submit the hash to the CTF server for points.

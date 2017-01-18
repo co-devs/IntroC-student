@@ -1,0 +1,44 @@
+Answering these questions will earn you 2 flags (6pts) and there's a third flag available below for determining the output of the code.
+
+What are data structures?
+
+What are arrays?
+
+What are the differences between single and multi dimensional arrays?
+
+How many elements do the following arrays contain?
+	double balance[1000];
+	int balance[5] = {1,2,3,4,5};
+	int balance[] = {5,4,3};
+
+The first element in an array starts with what index number?
+
+True/False? Explain why. "Strings are one-dimensional array of characters"
+
+What character are strings terminated by?
+
+What are the following functions' purpose?
+	strcpy()
+	strcat()
+	strlen()
+	strcmp()
+	strchr()
+	strstr()
+
+For another flag, what is the output of the following code:
+
+#include <stdio.h>
+#include <string.h>
+
+int main ()
+{
+    char str1[12] = "Hello";
+    char str2[12] = "World";
+    int  len;
+    strcat(str1, str2);
+    len = strlen(str1);
+    printf("%s", str1 );
+    printf("%d", len );
+    return 0;
+}
+To submit your answer, SHA1 hash the final answer. Submit the hash to the CTF server for points.

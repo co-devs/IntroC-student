@@ -1,0 +1,31 @@
+Answering this one question (below) will earn you flag (3pts).  Another flag is earned by determining the output of the code below.
+
+Figure out what the following code does. Explain in your own words what is happening in the two lines that read "k = n >> c" and "if (k & 1)"? 
+
+Given the input of 100, find what the output is. To submit your answer, SHA1 hash the final answer. The final answer should be the ouput. Submit the hash to the CTF server for points.
+
+#include <stdio.h>
+ 
+int main()
+{
+  int n, c, k;
+ 
+  printf("Enter an integer: \n");
+  scanf("%d", &n);
+ 
+  printf("%d\n", n);
+ 
+  for (c = 31; c >= 0; c--)
+  {
+    k = n >> c;
+ 
+    if (k & 1)
+      printf("1");
+    else
+      printf("0");
+  }
+ 
+  printf("\n");
+ 
+  return 0;
+}

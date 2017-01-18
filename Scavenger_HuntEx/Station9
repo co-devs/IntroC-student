@@ -1,0 +1,40 @@
+Answering the following 3 questions earns a flag (3pts) and there's another flag available at the bottom.
+
+Sizeof() is a function. Define functions: 
+
+What does the function sizeof() do?
+
+Why is size of variables important to understand? Think about how size fits into memory.
+
+Use the following program to answer the next problem:
+/*C program to print size of variables using sizeof() operator.*/
+ 
+#include <stdio.h>
+ 
+int main()
+{
+     
+    char    a       ='A';           
+    int     b       =120;
+    float   c       =123.0f;
+    double  d       =1222.90;
+    char    str[]   ="Hello";
+ 
+    printf("\nSize of a: %d",sizeof(a));
+    printf("\nSize of b: %d",sizeof(b));
+    printf("\nSize of c: %d",sizeof(c));
+    printf("\nSize of d: %d",sizeof(d));
+    printf("\nSize of str: %d",sizeof(str));
+ 
+    return 0;
+}
+Given the following ouput, fill in the blanks:
+Size of a: ?
+Size of b: ?
+Size of c: ?
+Size of d: ?
+Size of str: ?
+In regards to C programming, define recursion.
+Complete the following statement by filling in the blanks:
+	"While using recursion, you would need to be careful to define a/an s___ c________ in order to avoid a/an i_______ l___."
+To submit your answer, SHA1 hash the final answer. (Ex: if the four blanks above are dog, cat, mouse and fly in that order, you would SHA1 hash "dog,cat,mouse,fly" (without quotes and all lower case)) Submit the hash to the CTF server for points.

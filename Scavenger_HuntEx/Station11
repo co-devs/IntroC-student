@@ -1,0 +1,34 @@
+Answering all of these questions earns you 3 flags (9pts).  An additional flag is available at the bottom for a total of 4 flags (13pts).
+
+In regards to C programming, define structures.
+
+What keyword is used to define variables of structure type?
+
+What is the member access operator and what is the proper way of using it?
+
+Is it possible to pass a structure as a function argument?
+
+Is it possible to define pointers to structures? Please provide an example?
+
+What can bit fields do in regards to structures?
+
+What is a union?
+
+How do unions and structures differ?
+
+What is enumeration in regards to C?
+
+What is the keyword for enumeration types and why are they used in C programming?
+
+Give a few examples of the uses of scructures in C.
+
+What is "typedef"?
+
+How can you use "typedef" with structures?
+
+What are the differences between "typedef" and "#define"?
+
+Complete the following statement by filling in the blanks:
+	"Structure within a structure is called a (blank) (blank)."
+
+To submit your answer, SHA1 hash the final answer. (Ex: if the two blanks above are dog and fly in that order, you would SHA1 hash "dog,fly" (without quotes and all lower case)) Submit the hash to the CTF server for points.

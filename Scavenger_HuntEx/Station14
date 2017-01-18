@@ -1,0 +1,14 @@
+This program is worth 2 flags (6pts)
+
+C program to find sum of elements of rows and columns of matrix
+Example: If elements of matrix are:
+1 2 3
+4 5 6
+7 8 9
+Output:
+	Sum of row 1 = 6
+	Sum of row 2 = 15
+	...
+	...
+	Sum of column 3 = 18
+To submit your answer, show the working program to the instructor. The instructor will provide you with the SHA1 hash. Submit the hash to the CTF server for points.

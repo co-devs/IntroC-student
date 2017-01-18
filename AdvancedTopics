@@ -1,0 +1,60 @@
+Day 9
+	-Advanced topics
+	-Split class into X groups
+	-Discuss advanced theories
+		-Security exploits like memory corruption...
+		-What is memory?
+			-Memory management
+			-Virtual memory
+			-Virtual Address Space (VAS)
+			-Physical Address Space
+			-Endianness (big vs little)
+			-Stack architecture
+			-Calling Conventions (more specifically x86)
+			-Basic assembly language instructions (registers, push, pop, call, add, sub, mov, etc)
+			-Caller/Callee
+			-cdecl, syscall, optlink, pascal, stdcall, fastcall, thiscall
+			-Pointer arithmetic
+			-Dereferencing
+			-Absolute vs relative
+		-Back to memory corruption...
+			-Stack smashing (buffer overflows)
+			-Dangling pointer
+			-Memory leaks
+		-Techniques to exploit buffer overflow vulnerabiltiy are based on what?
+			-Arch
+			-OS
+			-Memory Region
+		-Types of Buffer Overflow (Heap vs Stack)
+			-NOP Sled
+			-JMPs/short jumps/conditional jumps
+			-JMP ESP (EIP Overwrite)
+			-POP/PUSH RET technique
+			-SEH
+		-Protective Countermeasures
+			-Safe libraries
+			-Bound checking
+			-Canaries
+			-DEP
+			-SEH protection
+			-ASLR
+			-DPI
+		-Ways to bypass protective countermeasures
+			-ret2libc (ROP Chain/Gadgets)
+			-Disable DEP
+			-Partial EIP overwrite
+		-Tools
+			-windbg
+			-ollydbg
+			-immunity debugger
+			-GDB
+			-IDA Pro
+			-pyDbg
+	-Resources
+		-http://insecure.org/stf/smashstack.html
+		-https://www.corelan.be/index.php/articles/
+		-https://www.rcesecurity.com/
+		-http://www.theamazingking.com/exploit.php
+Day 10
+	-Each group will present their material sequentially (30-45 minutes per group?)
+	-Final assessment/course feedback/CTF award ceremony

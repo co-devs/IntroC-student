@@ -1,0 +1,47 @@
+Answering these questions earns 1 flag (3pts) and there's another flag available at the bottom.
+
+What is the definition of a variable?
+
+In regards to naming variables:
+	Which characters are allowed?
+		Underscore(_)?
+		Capital Letters(A-Z)?
+		Small Letters(a-z)?
+		Digits(0-9)
+		Blanks( )?
+		Commas(,)?
+		Special Symbols (other than underscore; !@#$%^&*....etc)?
+		Reserved Words?
+	Are there restrictions on what the first character has to be?
+
+
+In regards to variables, what is the difference between declaration, definition, and initialization?
+
+In regards to variables, what is the difference between local, global, and environment?
+
+What is the definition of a function?
+
+In regards to functions, what is the difference between declaration, definition, and call?
+
+In regards to functions, define the following:
+	Return type
+	Parameters/Arguments
+	Function body
+
+For an additional flag: Given the following examples, which are valid statements? (the statements are independent of one another)
+a) int a, b;
+b) int b = 20;
+c) 50 = 70;
+d) int 3 = 2;
+e) int 3a = 4;
+f) float f = 3.0;
+g) extern float g;
+h) int i = func();
+i) float while;
+j) int newFunc();
+k) int old5_FuNc_L0L();
+l) int isThisCorrect?();
+m) char letter = 'b';
+n) static int k = 0;
+o) int main(void);
+To submit your answer, SHA1 hash the final answer. (Ex: if a, c, and f were the only correct answers, you would SHA1 hash "acf" (without quotes)) Submit the hash to the CTF server for points.

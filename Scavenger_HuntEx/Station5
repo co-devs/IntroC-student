@@ -1,0 +1,36 @@
+Answering the following questions earns 2 flags (6pts) and there is a 3rd flag for the fill-in-the-blank at the bottom.
+
+In your own words, describe the following decision making statements:
+	if statement
+	if...else statement
+	nested if statement
+	switch statement
+	nested switch statement
+In your own words, describe the following loop types:
+	while loop
+	for loop
+	do...while loop
+	nested loops
+In your own words, describe the following control statements:
+	break statement
+	continue statement
+	goto statement
+There are two things wrong with this code. Find the deficiencies and fix the code.
+#include <stdio.h>
+int main() 
+{
+    for (;;)
+    {
+        int i = 0;           
+	while(1) 
+	{
+	    i++;	
+        }
+    }
+    return i;
+ }
+
+For an additional flag, complete the following statement by filling in the blanks(the above code is a clue):
+ 	"You can terminate a/an (blank) (blank) by pressing (blank) + (blank) keys"
+
+To submit your answer, SHA1 hash the final answer. (Ex: if the four blanks above are dog, cat, mouse and fly in that order, you would SHA1 hash "dog,cat,mouse,fly" (without quotes and all lower case)) Submit the hash to the CTF server for points.

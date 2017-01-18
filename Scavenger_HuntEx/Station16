@@ -1,0 +1,18 @@
+This program is worth 2 flags (6pts)
+
+Write a program in C to encrypt a text file.
+
+Assume that, the content of the file test.txt are:
+Welcome to w3resource.com.
+
+The program should prompt for a file name like this:
+  Input the name of file to encrypt: test.txt
+
+Expected Output:
+	File test.txt successfully encrypted ..!!
+
+If you read the file test.txt you will see the following:
+	������Ʉ�ӄۗ�������ɒ��ђn
+
+
+To submit your answer, show the working program to the instructor. The instructor will provide you with the SHA1 hash. Submit the hash to the CTF server for points.

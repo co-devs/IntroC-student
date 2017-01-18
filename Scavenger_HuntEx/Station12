@@ -1,0 +1,35 @@
+Answering these questions earns a flag and witing the program described below earns another flag.
+
+Define the following words:
+	Input
+	Ouput
+	stdin
+	stdout
+	stderr
+	buffer
+
+What does the scanf() do? 
+
+List other functions similar to scanf().
+
+Write a program that does the following:
+	Allocate a buffer by calling to malloc
+	Create a new file
+	Write something into the file
+	Close the opened file
+	Open a file for read
+	Free the allocated buffer
+	Allocate a buffer by calling to malloc
+	Read the file content into the new buffer
+	Close the file
+	Print the buffer content
+	Free the buffer
+Use the following questions to help you write the program:
+	What is the function to create a new file or open an existing file?
+	What is the function to write to a file?
+	What is the function to close a file?
+	What is the function to read a file?
+	What is the purpose of the function malloc()?
+	What is the purpose of the function free()?
+
+To submit your answer, show the working program to the instructor. The instructor will provide you with the SHA1 hash. Submit the hash to the CTF server for points.
