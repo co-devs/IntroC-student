@@ -1,6 +1,7 @@
 Answering these questions earns 1 flag (3pts) and there's another flag available at the bottom.
 
 What is the definition of a variable?
+	Its a name given to a storage area that the program can manipulate.
 
 In regards to naming variables:
 	Which characters are allowed?
@@ -8,40 +9,55 @@ In regards to naming variables:
 		Capital Letters(A-Z)?
 		Small Letters(a-z)?
 		Digits(0-9)
-		Blanks( )?
-		Commas(,)?
-		Special Symbols (other than underscore; !@#$%^&*....etc)?
-		Reserved Words?
+
 	Are there restrictions on what the first character has to be?
+		First Character should be alphabet or Underscore
 
 
 In regards to variables, what is the difference between declaration, definition, and initialization?
+	- declaration: refers to the introduction of a new name in the program
+	- definition: definition of a previously declared name (or it can be both definition and declaration)
+	- initialization: refers to the "assignment" of a value, at construction time
+
 
 In regards to variables, what is the difference between local, global, and environment?
+	- Local variables: these are having scope in particular coding block in which it is declared.
+	- Global variables: These variables can be used any where in the program, in any sub routine which is a part of the current program.
+	- Environment variables: these are used to configure other commands or programs. Also, they are inherited by child shells.
 
 What is the definition of a function?
+	A function is a group of statements that together perform a task.
 
 In regards to functions, what is the difference between declaration, definition, and call?
+	- declaration provides basic attributes of a symbol: its type and its name.
+	- definition provides all of the details of that symbol.
+	- call is a reference method of passing arguments to a function copies the address of an argument into the formal parameter. I
+
 
 In regards to functions, define the following:
-	Return type
-	Parameters/Arguments
-	Function body
+	- Return type: The return type of a function establishes the size and type of the value returned by the function and corresponds to the type-specifier in the syntax
+	- Parameters/Arguments: Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function
+	- Function body: compound statement containing the statements that specify what the function does.
 
 For an additional flag: Given the following examples, which are valid statements? (the statements are independent of one another)
 a) int a, b;
 b) int b = 20;
 c) 50 = 70;
 d) int 3 = 2;
-e) int 3a = 4;
+e) int 3a = 4; (at least discouraged)
 f) float f = 3.0;
 g) extern float g;
-h) int i = func();
+h) int i = func(); (unsure)
 i) float while;
 j) int newFunc();
 k) int old5_FuNc_L0L();
 l) int isThisCorrect?();
 m) char letter = 'b';
-n) static int k = 0;
+n) static int k = 0; (why not?)
 o) int main(void);
+
+	answers are a, b, e, f, g, h, l, m wrong
+				a, b, f, g, h, l, m wrong
+				a, b, f, g, l, m wrong
+
 To submit your answer, SHA1 hash the final answer. (Ex: if a, c, and f were the only correct answers, you would SHA1 hash "acf" (without quotes)) Submit the hash to the CTF server for points.

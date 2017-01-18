@@ -2,29 +2,45 @@ Answering the following questions earns 2 flags (6pts) and there is a 3rd flag f
 
 In your own words, describe the following decision making statements:
 	if statement
+        if the condition is met then execute the following commands
 	if...else statement
+        if the condition is met then execute the following commands
+        otherwise, execute the following commands
 	nested if statement
+        if the condition is met then execute the following commands
+        inside that if, another conditional which, if met, execute its commands
 	switch statement
+        based on the value of the given expression, execute the code following the matchin value
 	nested switch statement
+        same as switch but with another one inside it
 In your own words, describe the following loop types:
 	while loop
+        while a condition is met, execute the code block
 	for loop
+        for the given values, execute the code block
 	do...while loop
+        execute a code block, then while a condition remains true, repeat
 	nested loops
+        loops that occur inside of loops. The nested loop occurs for each iteration of the container loop
 In your own words, describe the following control statements:
 	break statement
+        Terminate the containing loop or switch
 	continue statement
+        Similar to break, but instead of terminating, it moves on to the next iteration of the loop, skipping any code in between
 	goto statement
+        1 way transfer of control to another line of code
 There are two things wrong with this code. Find the deficiencies and fix the code.
 #include <stdio.h>
-int main() 
+int main()
 {
     for (;;)
     {
-        int i = 0;           
-	while(1) 
+        int i = 0;
+        // this is an infinite loop, i never iterates and there is no escape condition
+	while(1)
 	{
-	    i++;	
+	    i++;
+        // infinite loop. the conditional is 1, which never changes. i can iterate as much as it wants to but it has no impact on the continuation of the loop
         }
     }
     return i;
@@ -32,5 +48,6 @@ int main()
 
 For an additional flag, complete the following statement by filling in the blanks(the above code is a clue):
  	"You can terminate a/an (blank) (blank) by pressing (blank) + (blank) keys"
+    "You can terminate an infinite loop by pressing te ctrl + c keys"
 
-To submit your answer, SHA1 hash the final answer. (Ex: if the four blanks above are dog, cat, mouse and fly in that order, you would SHA1 hash "dog,cat,mouse,fly" (without quotes and all lower case)) Submit the hash to the CTF server for points.
+To submit your answer, SHA1 hash the final answer. (Ex: if the four blanks above are dog, cat, mouse and fly in that order, you would SHA1 hash "dog,cat,mouse,fly" (without quotes and all lower case)) Submit the hash to the CTF server for points. infinite,loop,ctrl,c - (405d98bfa02f0e70bdfa13f99f5be4dbb3e12695)
