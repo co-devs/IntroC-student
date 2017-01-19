@@ -8,27 +8,6 @@
         double *ptr_d;
         FILE *ptr_fp;
 
-        // /*Part Z
-        // * My additions
-        // */
-        // double *ptr_m;
-        // FILE *ptr_fm;
-        // // open file
-        // if((ptr_fm = fopen("output/test.txt", "w+")) == NULL)
-        // {
-        //     printf("Unable to open file!\n")
-        //     exit(1);
-        // }else printf("Opened file successfully for writing.\n");
-        // // Allocate memory
-        // ptr_m = (double *)malloc(1 + sizeof(ptr_fm));
-        // if(!ptr_m)
-        // {
-        //     printf("Memory allocation error!\n");
-        //     exit(1);
-        // }else printf("Memory allocation successful.\n");
-
-
-
         /* Part A
         * After some variable declaration we start the program with a
         * memory allocation statement. A piece of memory is requested using
@@ -58,7 +37,7 @@
         * of text), a “b” character has to be included in the mode string. The
         * rest of part C does some simple error handling.
         */
-        if((ptr_fp = fopen("test.txt", "w+")) == NULL)
+        if((ptr_fp = fopen("test.txt", "wb")) == NULL)
         {
             printf("Unable to open file!\n");
             exit(1);
