@@ -1,22 +1,3 @@
-This program is worth 2 flags (6pts)
-
-Write a program in C to get largest element of an array using a function.
-
-First prompt the user for input:
-Input the number of elements to be stored in the array:5
-
-Input 5 elements in the array:
-	element - 0 : 1
-	element - 1 : 2
-	element - 2 : 3
-	element - 3 : 4
-	element - 4 : 5
-
-Expected Output:
-The largest element in the array is : 5
-To submit your answer, show the working program to the instructor. The instructor will provide you with the SHA1 hash. Submit the hash to the CTF server for points.
-arrayarray - (10a874767af55fe2fc36b7a5e9295c409a539a6b)
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

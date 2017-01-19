@@ -1,17 +1,3 @@
-This program is worth 2 flags (6pts)
-
-Write a program in C to count the number of vowels and consonants in a string using pointer.
-
-Prompt the user for a string:
-Input a string: string
-
-Expected Output:
-	Number of vowels:1
-	Number of constant:5
-
-To submit your answer, show the working program to the instructor. The instructor will provide you with the SHA1 hash. Submit the hash to the CTF server for points. Use the last 5 digits of the hash to figure out your next station.
-vowelsale (41515b6568bd2bad06d937989f68f9d6b15a7934)
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,14 +1,3 @@
-This program is worth 2 flags (6pts)
-
-Write a program in C to print all permutations of a given string using pointers.
-Expected Output :
-The permutations of the string are:
-	abcd  abdc  acbd  acdb  adcb  adbc  bacd  badc  bcad  bcda  bdca  bdac  cbad  cbda  cabd  cadb  cdab  cdba  db
-ca  dbac  dcba  dcab  dacb  dabc
-
-To submit your answer, show the working program to the instructor. The instructor will provide you with the SHA1 hash. Submit the hash to the CTF server for points.
-permutationss (4c6513e837b3a65adcde0293375bb98b72f762b1)
-
 #include <stdio.h>
 #include <string.h>
 
