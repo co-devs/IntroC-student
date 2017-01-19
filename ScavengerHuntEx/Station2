@@ -1,0 +1,113 @@
+// Answering these questions will earn 2 flags (6pts) and there's a third flag available at the bottom for determining the output of the code.
+
+// What are the differences between Arithmetic, Relational, Logical, Bitwise, and Assignment Operators?
+// What do the following operators mean?
+// 	+   Arithmetic add
+// 	-   Arithmetic subtract
+// 	/   Arithmetic divide
+// 	%   Arithmetic modulo
+// 	++  Arithmetic increment
+// 	--  Arithmetic decrement
+// 	==  Comparison equal to
+// 	!=  Comparison not equal to
+// 	>   Comparison greater than
+// 	<   Comparison less then
+// 	>=  Comparison greater then or equal to
+// 	<=  Comparison less than or equal to
+// 	&&  Logical AND
+// 	||  Logical OR
+// 	!   Logical NOT
+// 	|   Bitwise OR
+// 	^   Bitwise XOR
+// 	>>  Bitwise left shift
+// 	<<  Bitwise right shift
+// 	=   Assignment
+// 	+=  Assignment addition assignment
+// 	-=  Assignment subtraction  assignment
+// 	*=  Assignment multiplication assignment
+// 	/=  Assignment division assignment
+// 	%=  Assignment modulo assignment
+// 	The following operators have 2 different meanings depending on how it is being used:
+// 		& &a is address of a
+// 		* Arithmetic multiplication or *a is indirection or "object pointed to by a)"
+// Is there an order of precedence in C? If so, why would it be important to know order of precendence?
+// YES
+
+// Why is it important to know difference between = and == operators? Are they the same or different? Please explain.
+// One assigns, the other "checks"
+
+// Use the answers to the above questions to help you determine the output of the following program. SHA1 hash the output of the program. Submit the hash to the CTF server for points.
+// prints "OOPS" (6ad21d0a2036d6e8fff9d3062cc7738702b91471)
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    a = 102 + 10 - 100 / 50;
+    // a = 110
+        if (a == 120)
+            // NO
+            {
+                a++;
+                if (a <= 100)
+                    {
+                        printf("LOL");
+                    }
+                else
+                    {
+                        if (a >= 110 && a != 110)
+                            {
+                                printf("OMG");
+                            }
+                        else
+                            {
+                                printf("WOW");
+                            }
+                    }
+            }
+        else if (a == 110)
+            // HERE
+            {
+                a++;
+                // a = 111
+                if (a <= 100)
+                    // NO
+                    {
+                        printf("NICE");
+                    }
+                else
+                    // HERE
+                    {
+                        if (a >= 110 && a != 110)
+                            // HERE
+                            {
+                                a--;
+                                // a = 110
+                                a/=10;
+                                // a = 11
+                                if (a == 10 || a >=12)
+                                    // NO
+                                    {
+                                        printf("NO");
+                                    }
+                                else if ((a <= 20 && a >=15) || (a == 11 && a <= 15))
+                                    // HERE
+                                    {
+                                        printf("OOPS");
+                                    }
+                                else
+                                    {
+                                        printf("YES");
+                                    }
+                            }
+                        else
+                            {
+                                printf("SWEET");
+                            }
+                    }
+            }
+        else
+            printf("YAY");
+    return 0;
+}

@@ -1,0 +1,59 @@
+Answering this one question (below) will earn you flag (3pts).  Another flag is earned by determining the output of the code below.
+
+Figure out what the following code does. Explain in your own words what is happening in the two lines that read "k = n >> c" and "if (k & 1)"?
+  "k = n >> c"
+    Right shift. k is equal to n shifted right by c bits
+  "if (k & 1)"
+    bitwise AND. If k bits AND 1 then execute code block
+
+
+Given the input of 100, find what the output is. To submit your answer, SHA1 hash the final answer. The final answer should be the ouput. Submit the hash to the CTF server for points.
+
+#include <stdio.h>
+
+int main()
+{
+  int n, c, k;
+
+  printf("Enter an integer: \n");
+  scanf("%d", &n); // n = 100
+
+  printf("%d\n", n); // n
+
+  for (c = 31; c >= 0; c--)
+  {
+    k = n >> c;
+    // 0110 0100 >> 31 = k = 0000 0000 output 0
+    // 0110 0100 >> 30 = k = 0000 0000 output 0
+    // 0110 0100 >> 29 = k = 0000 0000 output 0
+    // 0110 0100 >> 28 = k = 0000 0000 output 0
+    // 0110 0100 >> 27 = k = 0000 0000 output 0
+    // 0110 0100 >> 26 = k = 0000 0000 output 0
+    // 0110 0100 >> 25 = k = 0000 0000 output 0
+    // 0110 0100 >> 24 = k = 0000 0000 output 0
+    // 0110 0100 >> 23 = k = 0000 0000 output 0
+    // 0110 0100 >> 22 = k = 0000 0000 output 0
+    // 0110 0100 >> 21 = k = 0000 0000 output 0
+    // 0110 0100 >> 20 = k = 0000 0000 output 0
+    // ...                             output 0
+    // 0110 0100 >> 06 = k = 0000 0001 output 1
+    // 0110 0100 >> 05 = k = 0000 0011 output 1
+    // 0110 0100 >> 04 = k = 0000 0110 output 0
+    // 0110 0100 >> 03 = k = 0000 1100 output 0
+    // 0110 0100 >> 02 = k = 0001 1001 output 1
+    // 0110 0100 >> 01 = k = 0011 0010 output 0
+    // 0110 0100 >> 00 = k = 0110 0100 output 0
+
+    if (k & 1)
+    //  0000 0000
+    // &0000 0001
+      printf("1");
+    else
+      printf("0");
+  }
+
+  printf("\n");
+
+  return 0;
+}
+// output is: 00000000000000000000000001100100(\n not included for flag) (f66acf2f5aee660ecd75af742568c719df7ace08)

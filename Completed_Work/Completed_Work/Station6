@@ -1,0 +1,60 @@
+Answering these questions will earn you 2 flags (6pts) and there's a third flag available below for determining the output of the code.
+
+What are data structures?
+    A way of organizing data in a computer so that it can be used efficiently
+
+What are arrays?
+    A number of elements in a specific order, typically of the same type
+
+What are the differences between single and multi dimensional arrays?
+    In single arrays, each value of the array is of the desired type, like an integer. In multi dimensional arrays, there are n number of nested arrays with the lowest level containing the desired type, like int.
+        e.g. {1,2,3,4} vs {{1,2},{1,2},{1,2}}
+
+How many elements do the following arrays contain?
+	double balance[1000];
+        1000
+	int balance[5] = {1,2,3,4,5};
+        5
+	int balance[] = {5,4,3};
+        3
+
+The first element in an array starts with what index number?
+    0
+
+True/False? Explain why. "Strings are one-dimensional array of characters"
+    Generally, true. Strings consist of a number of elements, in this case of the same type, in a specific order, which is the definition of an array.
+
+What character are strings terminated by?
+    NULL
+
+What are the following functions' purpose?
+	strcpy()
+        Copies the string pointed to, by src to dest
+	strcat()
+        Appends the string pointed to by src to the end of the string pointed to by dest
+	strlen()
+        Computes the length of the string up to but not including terminating NULL
+	strcmp()
+        Compares the string pointed to by str1 to the string pointed to by str2
+	strchr()
+        Searches for the first occurence of the character c in the string pointed to by the argument str
+	strstr()
+        Finds the first occurence of the substring needle in the string haystack
+
+For another flag, what is the output of the following code:
+
+#include <stdio.h>
+#include <string.h>
+
+int main ()
+{
+    char str1[12] = "Hello"; // l
+    char str2[12] = "World"; // r
+    int  len;
+    strcat(str1, str2); // HelloWorld
+    len = strlen(str1); // 10
+    printf("%s", str1 ); // HelloWorld
+    printf("%d", len ); // 10
+    return 0;
+}
+To submit your answer, SHA1 hash the final answer. Submit the hash to the CTF server for points. HelloWorld10 (e4f2345439ec42ac10261f6cf10a1bdaa92dbb22)

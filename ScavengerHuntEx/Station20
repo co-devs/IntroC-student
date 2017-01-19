@@ -1,0 +1,14 @@
+This program is worth 2 flags (6pts)
+
+Write a program in C to read a file and remove the spaces between two words of its content.
+
+Expected Output :
+Remove the spaces between two words  :                                 
+-----------------------------------------                               
+	The content of the file is :                                           
+	The quick brown fox jumps over the lazy dog                            
+                                                                        
+After removing the spaces the content is :                             
+	Thequickbrownfoxjumpsoverthelazydog
+
+To submit your answer, show the working program to the instructor. The instructor will provide you with the SHA1 hash. Submit the hash to the CTF server for points.

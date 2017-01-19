@@ -1,0 +1,11 @@
+This program is worth 2 flags (6pts)
+
+Write a program in C to print a string in reverse order.
+
+Prompt the user :
+	Input a string to reverse : Welcome
+
+Expected Output :
+	Reversed string is: emocleW
+
+To submit your answer, show the working program to the instructor. The instructor will provide you with the SHA1 hash. Submit the hash to the CTF server for points.
