@@ -1,5 +1,29 @@
 
 YOU COMPLETED:
+      Station 11 Questions - 3 Flags
+      Station 12 Questions
+      Station 13 Questions - 3 Flags
+
+
+SUMMARY:
+     CTF SCORE BEFORE ADJUSTMENTS: 111
+     MANUAL ADJUSTMENTS: (+12) 123 (DONE)
+     AFTER ENTERING FLAGS LISTED BELOW: (+9) 132
+
+FLAGS YOU MUST ENTER (cut & paste these lines into a terminal):
+
+flag_checker -f ec24fc82d356339d0def18029bdc37c208c3cf04
+flag_checker -f 3fd6383543df4d291fdfa41acd67a5185dfc0788
+flag_checker -f 242a54a4026b6ab340ef9e7f47214e2f63cf57e7
+
+
+
+
+
+###############  PREVIOUS REPORTS BELOW  #################
+
+
+YOU COMPLETED:
      Station 2 Questions - 2 flags
      Station 3 Questions - 2 flags
      Station 4 Questions
