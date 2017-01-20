@@ -2,31 +2,26 @@
 #include <stdlib.h>
 #include <string.h>
 
-void swap(char *x, char *y)
-{
-    char temp;
-    temp = *x;
-    *x = *y;
-    *y = temp;
-}
-
 void strRev(char *str)
 {
-    if(strlen(str)<2)
+    int i = 0;
+    int strLength = strlen(str);
+    char revStr[strLength];
+    // printf("%")
+    for(i=0; i < strLength; i++)
     {
-        printf("<2\n");
-    }else
-    {
-        swa
-        printf(">=2\n");
+        revStr[i] = str[strLength - i - 1];
+        // printf("%c :> %c\n", str[strLength - i - 1], revStr[i]);
     }
+    printf("Reversed string is: %s\n", revStr);
+    // return revStr;
 }
 
 int main(void)
 {
     char str[256];
 
-    printf("Input a string: ");
+    printf("Input a string to reverse: ");
     scanf("%[^\n]%*c", str);
     strRev(str);
     return 0;

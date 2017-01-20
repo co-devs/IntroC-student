@@ -9,3 +9,33 @@ Expected Output :
 	Reversed string is: emocleW
 
 To submit your answer, show the working program to the instructor. The instructor will provide you with the SHA1 hash. Submit the hash to the CTF server for points.
+reversetalk (e4774dd72a9e89fbc3c14c44a9f4416321a842c0)
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void strRev(char *str)
+{
+    int i = 0;
+    int strLength = strlen(str);
+    char revStr[strLength];
+    // printf("%")
+    for(i=0; i < strLength; i++)
+    {
+        revStr[i] = str[strLength - i - 1];
+        // printf("%c :> %c\n", str[strLength - i - 1], revStr[i]);
+    }
+    printf("Reversed string is: %s\n", revStr);
+    // return revStr;
+}
+
+int main(void)
+{
+    char str[256];
+
+    printf("Input a string to reverse: ");
+    scanf("%[^\n]%*c", str);
+    strRev(str);
+    return 0;
+}
