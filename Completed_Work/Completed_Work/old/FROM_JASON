@@ -1,0 +1,117 @@
+
+NOTES FROM INSTRUCTOR:  
+
+   I award extra flags for breadboarded assignments (max 15pts).  For breadboarding the trivia game, you earned 9 pts.  Earlier while troubleshooting the CTF server, I entered an additional flag for your advanced morse code because it wasn't appearing on your grade report....now that the CTF is fixed, it appears and is counted 2x.  For that reason I'm not entering in a separate flag for the breadboarding.  The exta 'Adv Morse' flag will serve as your breadboard flag.
+   
+   You have completed all of the instructor graded assignments so there was nothing for me to add.  If you pull your grade report this morning, it should look similar to the flag list below.  The flag list below also includes each flag's individual point value (3,6,9).
+ 
+Your current CTF score: 186
+Breaks down as follows...
+ 
+devens_Adv Morse  9
+devens_Adv Morse Devens  9
+devens_Adv Trivia  3
+devens_Ex1_1 Local Repo  3
+devens_Ex1_1 TryGit  3
+devens_Ex2_1 Math  3
+devens_Ex2_10 Pointers  3
+devens_Ex2_10 Questions  3
+devens_Ex2_11 Questions  9
+devens_Ex2_11 Struct  3
+devens_Ex2_12 Files & Buffers  3
+devens_Ex2_12 Questions  3
+devens_Ex2_13 Questions  9
+devens_Ex2_13 Type Casting  3
+devens_Ex2_14 Matrix  3
+devens_Ex2_14 Matrix Count  6
+devens_Ex2_15 Permutations  6
+devens_Ex2_16 Encrypt  6
+devens_Ex2_17 Largest Element  6
+devens_Ex2_18 Buy a Vowel  6
+devens_Ex2_19 Reverse  6
+devens_Ex2_2 Operators  3
+devens_Ex2_2 Questions  6
+devens_Ex2_20 Brown Fox  6
+devens_Ex2_3 Data Types  3
+devens_Ex2_3 Questions  6
+devens_Ex2_4 Questions  3
+devens_Ex2_4 Variables  3
+devens_Ex2_5 Control Flow  3
+devens_Ex2_5 Questions  6
+devens_Ex2_6 Questions  6
+devens_Ex2_6 Strings & Arrays  3
+devens_Ex2_7 Escape!  3
+devens_Ex2_7 Questions  3
+devens_Ex2_8 Bit Manip  3
+devens_Ex2_8 Questions  3
+devens_Ex2_9 Questions  3
+devens_Ex2_9 Recursion  3
+devens_ExArd Binary  3
+devens_ExArd BtnLight  3
+devens_ExArd Dice  3
+devens_ExArd Morse  3
+devens_ExArd Traffic  3
+
+
+
+
+
+
+
+
+#################### PREVIOUS DAY'S WORK SHOWN BELOW ####################
+
+
+
+YOU COMPLETED:
+      Station 11 Questions - 3 Flags
+      Station 12 Questions
+      Station 13 Questions - 3 Flags
+
+
+SUMMARY:
+     CTF SCORE BEFORE ADJUSTMENTS: 111
+     MANUAL ADJUSTMENTS: (+12) 123 (DONE)
+     AFTER ENTERING FLAGS LISTED BELOW: (+9) 132
+
+FLAGS YOU MUST ENTER (cut & paste these lines into a terminal):
+
+flag_checker -f ec24fc82d356339d0def18029bdc37c208c3cf04
+flag_checker -f 3fd6383543df4d291fdfa41acd67a5185dfc0788
+flag_checker -f 242a54a4026b6ab340ef9e7f47214e2f63cf57e7
+
+
+
+
+
+###############  PREVIOUS REPORTS BELOW  #################
+
+
+YOU COMPLETED:
+     Station 2 Questions - 2 flags
+     Station 3 Questions - 2 flags
+     Station 4 Questions
+     Station 5 Questions - 2 flags
+     Station 6 Questions - 2 flags
+     Station 7 Questions
+     Station 8 Questions
+     Station 9 Questions
+     Station 10 Questions
+
+SUMMARY:
+     CTF SCORE BEFORE ADJUSTMENTS: 42
+     MANUAL ADJUSTMENTS: (+12) 54 (Done)
+     AFTER ENTERING FLAGS LISTED BELOW: (+27) 81
+
+FLAGS YOU MUST ENTER (cut & paste these lines into a terminal):
+
+flag_checker -f 5a3c7b8ea7bc9c255ce96e8ac682bb7c34a7d5a0
+flag_checker -f 34292c93f1b0bccd2fe3f257dd14a27e4b4758bc
+flag_checker -f 86aecdcc5ee33fa12d82a9056d960c1252376055
+flag_checker -f f1de912f0c835ebc5faef641145665f3a455b131
+flag_checker -f 3f4609fb85e647cf9a908831b99e03ff0474e408
+flag_checker -f 8f6014ebe8aa21f56e3f7be2b889590f8e69f750
+flag_checker -f 2b7d7414eb8a0bbef3d91fd92742ee60c087a459
+flag_checker -f 5db89e16e9acf779ad559dafd3fc6d09f7e7eb6f
+flag_checker -f 58835b4f8d48f7e3332000d5ba3f96b92b42b480
+

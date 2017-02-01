@@ -1,0 +1,51 @@
+Filling in the blanks below will earn a flag (3pts) and another flag is available at the bottom.
+
+Explain escape sequences in regards to C.
+	escape sequence refers to a combination of characters beginning with a back slash (\) followed by letters or digits.
+
+Given these escape sequnces, what would they print or what are they used for:
+	\\ Backslash. Insert a backslash character in a string.
+	\" Double quote. Insert a double-quote character in a string.
+	\' Insert a quote character in a string.
+	\? escapes generate the same character code values as they do in an ASCII environmen
+	\a Alert. Produces a sound or visible alert without changing the current cursor position.
+	\b matches at a word boundary
+	\n Newline. Position the cursor at the beginning of the next line.
+	\t Horizontal tab. Move the cursor to the next tab stop.
+	\v any vertical white space character
+	\r carriage return (hex 0D)
+	\ddd character with octal code ddd, or backreference
+	\0 defined to be a null character - that is a character with all bits set to zero.
+
+What are format specifiers?
+	ormat specifiers defines the type of data to be printed on standard output. Whether to print formatted output or to take formatted input we need format specifiers. Format specifiers are also called as format string
+
+
+Define each of the following format specifiers:
+	%c Character
+	%d Signed Integer
+	%e or %E Scientific notation of float values
+	%f Floating point
+	%hi Signed Integer(Short)
+	%hu Unsigned Integer(Short)
+	%i Signed Integer
+	%lu Unsigned integer
+	%li Signed Integer
+	%o Octal representation of Integer
+	%s String
+	%u Unsigned Integer
+	%x Hexadecimal representation of Unsigned Integer
+	%n Prints nothing
+	%% Prints % character
+
+The following program should output C:\Windows\system32\temp\'evil.txt'
+How can you fix the printf statement to have the proper output?
+
+#include <stdio.h>
+int main()
+{
+    printf("C:\\Windows\\system32\\temp\\evil.txt"); // (4c781f2d2792379dd8766beadc437a598f680d13)
+    return 0;
+}
+
+To submit your answer, SHA1 hash the final answer. The final answer should include everything between the double quotes within the printf statement. (Ex. if printf("LOL''WHAT"); is the correct format, your answer should be "LOL''WHAT" (without the double quotes)) Submit the hash to the CTF server for points.

@@ -1,0 +1,50 @@
+This program is worth 2 flags (6pts)
+
+Write a program in C to count the number of vowels and consonants in a string using pointer.
+
+Prompt the user for a string:
+Input a string: string
+
+Expected Output:
+	Number of vowels:1
+	Number of constant:5
+
+To submit your answer, show the working program to the instructor. The instructor will provide you with the SHA1 hash. Submit the hash to the CTF server for points. Use the last 5 digits of the hash to figure out your next station.
+vowelsale (41515b6568bd2bad06d937989f68f9d6b15a7934)
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int charCounter(char *str)
+{
+    int strLength = strlen(str);
+    int i = 0;
+    int vowCount = 0;
+    int consCount = 0;
+    for(i=0; i < strLength; i++)
+    {
+        if(str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' || str[i]=='u' || str[i]=='A' || str[i]=='E' || str[i]=='I' || str[i]=='O' || str[i]=='U')
+        {
+            ++vowCount;
+        }
+        else if((str[i]>='a'&&str[i]<='z')||(str[i]>='A'&&str[i]<='Z'))
+        {
+            ++consCount;
+        }
+    }
+    printf("Number of vowels: %d\n", vowCount);
+    printf("Number of consonants: %d\n", consCount);
+    return 0;
+}
+
+
+int main(void)
+{
+    char str[256];
+
+    printf("Input a string: ");
+    scanf("%[^\n]%*c", str);
+    charCounter(str);
+    return 0;
+}
