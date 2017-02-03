@@ -1,4 +1,0 @@
-What is 2+2?,0,4,2,7,2
-What is the capital of Colorado?,Memphis,Detroit,Austin,Denver,Denver
-Where is the Eiffel Tower?,Paris,Rome,London,Beijing,Paris
-What is the chemical symbol for Tin?,He,Sn,Ti,T,SN
